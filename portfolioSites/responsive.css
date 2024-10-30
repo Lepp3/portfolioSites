@@ -1,0 +1,45 @@
+@media (max-width: 1000px){
+    header{
+        padding: 20px 5px;
+        height: auto;
+        width: auto;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .socials{
+       display: none;
+    }
+
+    nav{
+        flex: 0 0 20%;
+    }
+
+    .login{
+        flex: 0 0 20%;
+        align-self: center;
+        gap: 20px;
+    }
+
+    .dishes{
+        height: max-content;
+    }
+
+    .dishCard:hover{
+        transform: scale(1.2);
+       
+    }
+
+    iframe{
+        width: auto;
+    }
+
+    .reservationInfo,.takeAwayInfo{
+        width: auto;
+    }
+
+    .reservationInfo li,.takeAwayInfo li{
+        flex-direction: column;
+    }
+    
+}

@@ -207,7 +207,7 @@ main{
 
 .dishCard:hover{
     transform: scale(1.4);
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 .dishCard h4{
